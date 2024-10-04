@@ -1,0 +1,351 @@
+[2024-10-04T08:56:56.356+0000] {processor.py:157} INFO - Started process (PID=186) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:56:56.357+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T08:56:56.359+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:56:56.358+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:57:01.692+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:57:02.021+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:57:02.021+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:music_recommendation_system
+[2024-10-04T08:57:02.039+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:57:02.038+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:music_recommendation_system
+[2024-10-04T08:57:02.049+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:57:02.049+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:music_recommendation_system
+[2024-10-04T08:57:02.069+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:57:02.069+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T08:57:02.092+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:57:02.090+0000] {dag.py:2763} INFO - Creating ORM DAG for music_recommendation_system
+[2024-10-04T08:57:02.109+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:57:02.109+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T08:57:02.109278+00:00, run_after=2024-10-04T08:57:02.109278+00:00
+[2024-10-04T08:57:02.142+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 5.789 seconds
+[2024-10-04T08:57:32.448+0000] {processor.py:157} INFO - Started process (PID=208) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:57:32.453+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T08:57:32.456+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:57:32.455+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:57:34.676+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:57:34.699+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:57:34.699+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T08:57:34.744+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:57:34.744+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T08:57:34.744044+00:00, run_after=2024-10-04T08:57:34.744044+00:00
+[2024-10-04T08:57:34.776+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 2.340 seconds
+[2024-10-04T08:58:04.988+0000] {processor.py:157} INFO - Started process (PID=229) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:58:04.990+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T08:58:04.992+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:58:04.991+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:58:06.339+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:58:06.365+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:58:06.364+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T08:58:06.386+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:58:06.386+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T08:58:06.386384+00:00, run_after=2024-10-04T08:58:06.386384+00:00
+[2024-10-04T08:58:06.408+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.429 seconds
+[2024-10-04T08:58:36.610+0000] {processor.py:157} INFO - Started process (PID=250) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:58:36.611+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T08:58:36.612+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:58:36.611+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:58:37.984+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:58:38.008+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:58:38.007+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T08:58:38.030+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:58:38.030+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T08:58:38.029869+00:00, run_after=2024-10-04T08:58:38.029869+00:00
+[2024-10-04T08:58:38.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.443 seconds
+[2024-10-04T08:59:08.254+0000] {processor.py:157} INFO - Started process (PID=271) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:59:08.255+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T08:59:08.256+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:59:08.256+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:59:09.673+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:59:09.702+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:59:09.701+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T08:59:09.730+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:59:09.730+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T08:59:09.729830+00:00, run_after=2024-10-04T08:59:09.729830+00:00
+[2024-10-04T08:59:09.754+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.503 seconds
+[2024-10-04T08:59:39.974+0000] {processor.py:157} INFO - Started process (PID=292) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:59:39.975+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T08:59:39.976+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:59:39.976+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:59:41.358+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T08:59:41.388+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:59:41.387+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T08:59:41.413+0000] {logging_mixin.py:150} INFO - [2024-10-04T08:59:41.413+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T08:59:41.413226+00:00, run_after=2024-10-04T08:59:41.413226+00:00
+[2024-10-04T08:59:41.438+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.467 seconds
+[2024-10-04T09:00:11.647+0000] {processor.py:157} INFO - Started process (PID=313) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:00:11.648+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:00:11.649+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:00:11.648+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:00:12.990+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:00:13.019+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:00:13.018+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:00:13.042+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:00:13.042+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T09:00:13.042421+00:00, run_after=2024-10-04T09:00:13.042421+00:00
+[2024-10-04T09:00:13.066+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.422 seconds
+[2024-10-04T09:00:43.275+0000] {processor.py:157} INFO - Started process (PID=334) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:00:43.276+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:00:43.277+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:00:43.277+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:00:44.707+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:00:44.735+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:00:44.734+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:00:44.762+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:00:44.762+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T09:00:44.762080+00:00, run_after=2024-10-04T09:00:44.762080+00:00
+[2024-10-04T09:00:44.788+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.516 seconds
+[2024-10-04T09:01:14.997+0000] {processor.py:157} INFO - Started process (PID=355) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:01:14.998+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:01:14.998+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:01:14.998+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:01:16.162+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:01:16.185+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:01:16.185+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:01:16.205+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:01:16.205+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T09:01:16.205149+00:00, run_after=2024-10-04T09:01:16.205149+00:00
+[2024-10-04T09:01:16.222+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.228 seconds
+[2024-10-04T09:01:46.421+0000] {processor.py:157} INFO - Started process (PID=376) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:01:46.422+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:01:46.422+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:01:46.422+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:01:47.731+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:01:47.756+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:01:47.756+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:01:47.778+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:01:47.778+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T09:01:47.778199+00:00, run_after=2024-10-04T09:01:47.778199+00:00
+[2024-10-04T09:01:47.799+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.382 seconds
+[2024-10-04T09:02:17.998+0000] {processor.py:157} INFO - Started process (PID=397) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:02:17.999+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:02:18.000+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:02:18.000+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:02:19.245+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:02:19.270+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:02:19.269+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:02:19.290+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:02:19.290+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T09:02:19.290432+00:00, run_after=2024-10-04T09:02:19.290432+00:00
+[2024-10-04T09:02:19.312+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.317 seconds
+[2024-10-04T09:02:49.503+0000] {processor.py:157} INFO - Started process (PID=418) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:02:49.504+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:02:49.505+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:02:49.505+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:02:50.748+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:02:50.773+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:02:50.772+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:02:50.795+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:02:50.795+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T09:02:50.795259+00:00, run_after=2024-10-04T09:02:50.795259+00:00
+[2024-10-04T09:02:50.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.315 seconds
+[2024-10-04T09:03:21.015+0000] {processor.py:157} INFO - Started process (PID=439) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:03:21.016+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:03:21.017+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:03:21.017+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:03:22.416+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:03:22.475+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:03:22.473+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:03:22.512+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:03:22.512+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T09:03:22.512520+00:00, run_after=2024-10-04T09:03:22.512520+00:00
+[2024-10-04T09:03:22.549+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.536 seconds
+[2024-10-04T09:03:52.762+0000] {processor.py:157} INFO - Started process (PID=460) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:03:52.763+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:03:52.764+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:03:52.764+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:03:54.251+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:03:54.302+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:03:54.301+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:03:54.353+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:03:54.353+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T09:03:54.352699+00:00, run_after=2024-10-04T09:03:54.352699+00:00
+[2024-10-04T09:03:54.390+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.635 seconds
+[2024-10-04T09:04:24.593+0000] {processor.py:157} INFO - Started process (PID=481) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:04:24.595+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:04:24.596+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:04:24.595+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:04:26.420+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:04:26.506+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:04:26.504+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:04:26.539+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:04:26.539+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T09:04:26.539211+00:00, run_after=2024-10-04T09:04:26.539211+00:00
+[2024-10-04T09:04:26.569+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.980 seconds
+[2024-10-04T09:04:43.712+0000] {processor.py:157} INFO - Started process (PID=502) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:04:43.713+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:04:43.713+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:04:43.713+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:04:44.849+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:04:44.958+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:04:44.957+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:04:44.983+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:04:44.983+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-03T09:04:44.983147+00:00, run_after=2024-10-04T09:04:44.983147+00:00
+[2024-10-04T09:04:45.014+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.304 seconds
+[2024-10-04T09:05:03.147+0000] {processor.py:157} INFO - Started process (PID=523) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:05:03.148+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:05:03.149+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:05:03.149+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:05:04.342+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:05:04.357+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:05:04.357+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:05:04.383+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:05:04.382+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:05:04.415+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.270 seconds
+[2024-10-04T09:05:34.606+0000] {processor.py:157} INFO - Started process (PID=544) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:05:34.607+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:05:34.608+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:05:34.608+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:05:35.848+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:05:36.017+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:05:36.016+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:05:36.050+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:05:36.049+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:05:36.082+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.480 seconds
+[2024-10-04T09:06:06.304+0000] {processor.py:157} INFO - Started process (PID=565) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:06:06.306+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:06:06.308+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:06:06.306+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:06:07.608+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:06:07.659+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:06:07.658+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:06:07.708+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:06:07.707+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:06:07.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.436 seconds
+[2024-10-04T09:06:21.414+0000] {processor.py:157} INFO - Started process (PID=586) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:06:21.416+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:06:21.418+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:06:21.418+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:06:22.786+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:06:22.773+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/music_recommendation_retraining.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/music_recommendation_retraining.py", line 62, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dag.py", line 452, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Song Recommender Model Auto Trainer' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-04T09:06:22.790+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:06:22.811+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.403 seconds
+[2024-10-04T09:06:33.482+0000] {processor.py:157} INFO - Started process (PID=607) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:06:33.484+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:06:33.485+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:06:33.484+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:06:34.831+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:06:34.858+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:06:34.857+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:06:34.894+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:06:34.894+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:06:34.933+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.466 seconds
+[2024-10-04T09:07:05.114+0000] {processor.py:157} INFO - Started process (PID=628) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:07:05.115+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:07:05.116+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:07:05.115+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:07:06.458+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:07:06.512+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:07:06.509+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:07:06.561+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:07:06.560+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:07:06.602+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.491 seconds
+[2024-10-04T09:07:36.803+0000] {processor.py:157} INFO - Started process (PID=649) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:07:36.804+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:07:36.805+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:07:36.805+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:07:38.221+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:07:38.276+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:07:38.275+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:07:38.323+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:07:38.322+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:07:38.360+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.560 seconds
+[2024-10-04T09:08:08.459+0000] {processor.py:157} INFO - Started process (PID=706) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:08:08.461+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:08:08.462+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:08:08.461+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:08:10.430+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:08:10.475+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:08:10.474+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:08:10.525+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:08:10.524+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:08:10.560+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 2.104 seconds
+[2024-10-04T09:08:40.739+0000] {processor.py:157} INFO - Started process (PID=727) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:08:40.740+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:08:40.741+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:08:40.741+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:08:42.320+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:08:42.357+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:08:42.356+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:08:42.417+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:08:42.417+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:08:42.447+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.717 seconds
+[2024-10-04T09:09:12.668+0000] {processor.py:157} INFO - Started process (PID=748) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:09:12.670+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:09:12.671+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:09:12.671+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:09:14.279+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:09:14.347+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:09:14.345+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:09:14.418+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:09:14.417+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:09:14.449+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.784 seconds
+[2024-10-04T09:09:44.649+0000] {processor.py:157} INFO - Started process (PID=769) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:09:44.650+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:09:44.651+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:09:44.651+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:09:45.970+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:09:46.016+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:09:46.015+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:09:46.069+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:09:46.069+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:09:46.107+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.464 seconds
+[2024-10-04T09:10:16.201+0000] {processor.py:157} INFO - Started process (PID=790) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:10:16.202+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:10:16.203+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:10:16.203+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:10:17.451+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:10:17.495+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:10:17.494+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:10:17.535+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:10:17.534+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:10:17.561+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.362 seconds
+[2024-10-04T09:10:47.727+0000] {processor.py:157} INFO - Started process (PID=811) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:10:47.728+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:10:47.729+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:10:47.729+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:10:48.959+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:10:49.005+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:10:49.004+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:10:49.048+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:10:49.047+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:10:49.075+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.351 seconds
+[2024-10-04T09:11:19.250+0000] {processor.py:157} INFO - Started process (PID=832) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:11:19.252+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:11:19.253+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:11:19.252+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:11:20.480+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:11:20.503+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:11:20.503+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:11:20.536+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:11:20.535+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:11:20.565+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.318 seconds
+[2024-10-04T09:11:50.743+0000] {processor.py:157} INFO - Started process (PID=853) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:11:50.744+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:11:50.745+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:11:50.744+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:11:52.372+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:11:52.421+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:11:52.420+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:11:52.457+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:11:52.456+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:11:52.484+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.744 seconds
+[2024-10-04T09:12:22.583+0000] {processor.py:157} INFO - Started process (PID=894) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:12:22.584+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:12:22.585+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:12:22.585+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:12:23.884+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:12:23.914+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:12:23.913+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:12:23.938+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:12:23.937+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:12:23.962+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.381 seconds
+[2024-10-04T09:12:54.179+0000] {processor.py:157} INFO - Started process (PID=965) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:12:54.181+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:12:54.182+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:12:54.181+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:12:55.518+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:12:55.543+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:12:55.543+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:12:55.568+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:12:55.568+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:12:55.593+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.419 seconds
+[2024-10-04T09:13:25.806+0000] {processor.py:157} INFO - Started process (PID=986) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:13:25.807+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:13:25.808+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:13:25.808+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:13:27.068+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:13:27.094+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:13:27.093+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:13:27.119+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:13:27.119+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:13:27.139+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.336 seconds
+[2024-10-04T09:13:57.345+0000] {processor.py:157} INFO - Started process (PID=1043) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:13:57.346+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:13:57.347+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:13:57.347+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:13:58.839+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:13:58.869+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:13:58.868+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:13:58.893+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:13:58.893+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:13:58.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.575 seconds
+[2024-10-04T09:14:29.132+0000] {processor.py:157} INFO - Started process (PID=1064) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:14:29.133+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:14:29.134+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:14:29.134+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:14:30.586+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:14:30.616+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:14:30.615+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:14:30.639+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:14:30.639+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:14:30.661+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.532 seconds
+[2024-10-04T09:15:00.829+0000] {processor.py:157} INFO - Started process (PID=1085) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:15:00.830+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:15:00.831+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:15:00.831+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:15:02.004+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:15:02.041+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:15:02.040+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:15:02.068+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:15:02.068+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:15:02.084+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.257 seconds
+[2024-10-04T09:15:32.254+0000] {processor.py:157} INFO - Started process (PID=1106) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:15:32.255+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:15:32.256+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:15:32.256+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:15:33.421+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:15:33.451+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:15:33.450+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:15:33.479+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:15:33.479+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:15:33.506+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.256 seconds
+[2024-10-04T09:16:03.677+0000] {processor.py:157} INFO - Started process (PID=1127) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:16:03.678+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:16:03.679+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:16:03.679+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:16:05.236+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:16:05.270+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:16:05.270+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:16:05.303+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:16:05.302+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:16:05.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.649 seconds
+[2024-10-04T09:16:35.526+0000] {processor.py:157} INFO - Started process (PID=1148) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:16:35.527+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:16:35.531+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:16:35.530+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:16:36.786+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:16:36.824+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:16:36.823+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:16:36.860+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:16:36.859+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:16:36.878+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.356 seconds
+[2024-10-04T09:17:07.021+0000] {processor.py:157} INFO - Started process (PID=1169) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:17:07.022+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:17:07.023+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:17:07.022+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:17:08.498+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:17:08.533+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:17:08.532+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:17:08.563+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:17:08.563+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:17:08.586+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.568 seconds
+[2024-10-04T09:17:38.774+0000] {processor.py:157} INFO - Started process (PID=1190) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:17:38.775+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:17:38.777+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:17:38.776+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:17:40.523+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:17:40.551+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:17:40.551+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:17:40.586+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:17:40.586+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:17:40.614+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.843 seconds
+[2024-10-04T09:18:10.830+0000] {processor.py:157} INFO - Started process (PID=1213) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:18:10.831+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:18:10.832+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:18:10.832+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:18:12.309+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:18:12.336+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:18:12.335+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:18:12.360+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:18:12.360+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:18:12.383+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.557 seconds
+[2024-10-04T09:18:42.584+0000] {processor.py:157} INFO - Started process (PID=1302) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:18:42.585+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:18:42.586+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:18:42.586+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:18:43.872+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:18:43.901+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:18:43.900+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:18:43.922+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:18:43.922+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:18:43.944+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.362 seconds
+[2024-10-04T09:19:14.153+0000] {processor.py:157} INFO - Started process (PID=1323) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:19:14.155+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:19:14.156+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:19:14.155+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:19:15.509+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:19:15.536+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:19:15.535+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:19:15.559+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:19:15.559+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:19:15.581+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.432 seconds
+[2024-10-04T09:19:45.785+0000] {processor.py:157} INFO - Started process (PID=1344) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:19:45.786+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:19:45.787+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:19:45.787+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:19:47.084+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:19:47.111+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:19:47.110+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:19:47.134+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:19:47.134+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:19:47.157+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.375 seconds
+[2024-10-04T09:20:17.361+0000] {processor.py:157} INFO - Started process (PID=1365) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:20:17.362+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:20:17.363+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:20:17.363+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:20:18.629+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:20:18.658+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:20:18.657+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:20:18.679+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:20:18.679+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:20:18.703+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.346 seconds
+[2024-10-04T09:20:48.907+0000] {processor.py:157} INFO - Started process (PID=1386) to work on /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:20:48.909+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/music_recommendation_retraining.py for tasks to queue
+[2024-10-04T09:20:48.910+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:20:48.910+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:20:50.126+0000] {processor.py:836} INFO - DAG(s) dict_keys(['music_recommendation_system']) retrieved from /opt/airflow/dags/music_recommendation_retraining.py
+[2024-10-04T09:20:50.149+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:20:50.149+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-10-04T09:20:50.171+0000] {logging_mixin.py:150} INFO - [2024-10-04T09:20:50.170+0000] {dag.py:3504} INFO - Setting next_dagrun for music_recommendation_system to 2024-10-04T00:00:00+00:00, run_after=2024-10-05T00:00:00+00:00
+[2024-10-04T09:20:50.191+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/music_recommendation_retraining.py took 1.287 seconds

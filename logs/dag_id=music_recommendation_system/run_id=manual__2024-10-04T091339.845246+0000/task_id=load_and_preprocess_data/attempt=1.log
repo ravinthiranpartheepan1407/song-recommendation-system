@@ -1,0 +1,70 @@
+[2024-10-04T09:13:42.376+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: music_recommendation_system.load_and_preprocess_data manual__2024-10-04T09:13:39.845246+00:00 [queued]>
+[2024-10-04T09:13:42.389+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: music_recommendation_system.load_and_preprocess_data manual__2024-10-04T09:13:39.845246+00:00 [queued]>
+[2024-10-04T09:13:42.389+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-10-04T09:13:42.407+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_and_preprocess_data> on 2024-10-04 09:13:39.845246+00:00
+[2024-10-04T09:13:42.419+0000] {standard_task_runner.py:57} INFO - Started process 1024 to run task
+[2024-10-04T09:13:42.422+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'music_recommendation_system', 'load_and_preprocess_data', 'manual__2024-10-04T09:13:39.845246+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/music_recommendation_retraining.py', '--cfg-path', '/tmp/tmp5ir3xer9']
+[2024-10-04T09:13:42.426+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask load_and_preprocess_data
+[2024-10-04T09:13:42.444+0000] {logging_mixin.py:150} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-10-04T09:13:42.486+0000] {task_command.py:410} INFO - Running <TaskInstance: music_recommendation_system.load_and_preprocess_data manual__2024-10-04T09:13:39.845246+00:00 [running]> on host 87173cd7afd2
+[2024-10-04T09:13:42.592+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='music_recommendation_system' AIRFLOW_CTX_TASK_ID='load_and_preprocess_data' AIRFLOW_CTX_EXECUTION_DATE='2024-10-04T09:13:39.845246+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-04T09:13:39.845246+00:00'
+[2024-10-04T09:13:43.206+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-10-04T09:13:43.217+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=music_recommendation_system, task_id=load_and_preprocess_data, execution_date=20241004T091339, start_date=20241004T091342, end_date=20241004T091343
+[2024-10-04T09:13:43.220+0000] {base.py:73} INFO - Using connection ID 'datahub_rest_default' for task execution.
+[2024-10-04T09:13:43.221+0000] {base.py:73} INFO - Using connection ID 'datahub_rest_default' for task execution.
+[2024-10-04T09:13:43.223+0000] {datahub_plugin_v22.py:112} INFO - Emitting Datahub Dataflow: DataFlow(urn=DataFlowUrn(urn:li:dataFlow:(***,music_recommendation_system,prod)), id='music_recommendation_system', orchestrator='***', cluster=None, name=None, description='A DAG to train and log a music recommendation system', properties={'_access_control': 'None', 'catchup': 'False', 'description': "'A DAG to train and log a music recommendation system'", 'doc_md': 'None', 'fileloc': "'/opt/***/dags/music_recommendation_retraining.py'", 'is_paused_upon_creation': 'None', 'start_date': 'None', 'tags': '[]', 'timezone': "Timezone('UTC')"}, url='http://localhost:8080/tree?dag_id=music_recommendation_system', tags=set(), owners={'***'}, group_owners=set(), platform_instance=None, env='prod')
+[2024-10-04T09:13:43.225+0000] {datahub_plugin_v22.py:88} ERROR - Error sending metadata to datahub: ('Unable to emit metadata to DataHub GMS', {'message': "No connection adapters were found for 'datahub:8080/aspects?action=ingestProposal'"})
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/datahub/emitter/rest_emitter.py", line 325, in _emit_generic
+    response = self._session.post(url, data=payload)
+  File "/home/airflow/.local/lib/python3.9/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/requests/sessions.py", line 697, in send
+    adapter = self.get_adapter(url=request.url)
+  File "/home/airflow/.local/lib/python3.9/site-packages/requests/sessions.py", line 794, in get_adapter
+    raise InvalidSchema(f"No connection adapters were found for {url!r}")
+requests.exceptions.InvalidSchema: No connection adapters were found for 'datahub:8080/aspects?action=ingestProposal'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/datahub/emitter/rest_emitter.py", line 222, in emit
+    self.emit_mcp(item, async_flag=async_flag)
+  File "/home/airflow/.local/lib/python3.9/site-packages/datahub/emitter/rest_emitter.py", line 269, in emit_mcp
+    self._emit_generic(url, payload)
+  File "/home/airflow/.local/lib/python3.9/site-packages/datahub/emitter/rest_emitter.py", line 353, in _emit_generic
+    raise OperationalError(
+datahub.configuration.common.OperationalError: ('Unable to emit metadata to DataHub GMS', {'message': "No connection adapters were found for 'datahub:8080/aspects?action=ingestProposal'"})
+[2024-10-04T09:13:43.229+0000] {logging_mixin.py:150} INFO - Exception: Traceback (most recent call last):
+  File "/home/***/.local/lib/python3.9/site-packages/datahub/emitter/rest_emitter.py", line 325, in _emit_generic
+    response = self._session.post(url, data=payload)
+  File "/home/***/.local/lib/python3.9/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/home/***/.local/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/***/.local/lib/python3.9/site-packages/requests/sessions.py", line 697, in send
+    adapter = self.get_adapter(url=request.url)
+  File "/home/***/.local/lib/python3.9/site-packages/requests/sessions.py", line 794, in get_adapter
+    raise InvalidSchema(f"No connection adapters were found for {url!r}")
+requests.exceptions.InvalidSchema: No connection adapters were found for 'datahub:8080/aspects?action=ingestProposal'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/***/.local/lib/python3.9/site-packages/datahub_***_plugin/datahub_plugin_v22.py", line 260, in custom_on_success_callback
+    datahub_task_status_callback(context, status=InstanceRunResult.SUCCESS)
+  File "/home/***/.local/lib/python3.9/site-packages/datahub_***_plugin/datahub_plugin_v22.py", line 113, in datahub_task_status_callback
+    dataflow.emit(emitter, callback=_make_emit_callback(task.log))
+  File "/home/***/.local/lib/python3.9/site-packages/datahub/api/entities/datajob/dataflow.py", line 195, in emit
+    emitter.emit(mcp, callback)
+  File "/home/***/.local/lib/python3.9/site-packages/datahub/emitter/rest_emitter.py", line 222, in emit
+    self.emit_mcp(item, async_flag=async_flag)
+  File "/home/***/.local/lib/python3.9/site-packages/datahub/emitter/rest_emitter.py", line 269, in emit_mcp
+    self._emit_generic(url, payload)
+  File "/home/***/.local/lib/python3.9/site-packages/datahub/emitter/rest_emitter.py", line 353, in _emit_generic
+    raise OperationalError(
+datahub.configuration.common.OperationalError: ('Unable to emit metadata to DataHub GMS', {'message': "No connection adapters were found for 'datahub:8080/aspects?action=ingestProposal'"})
+[2024-10-04T09:13:43.278+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-10-04T09:13:43.308+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check
